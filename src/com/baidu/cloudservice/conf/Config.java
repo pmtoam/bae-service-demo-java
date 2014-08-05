@@ -12,7 +12,7 @@ public class Config{
 	public static String MYSQLPORT = "4050";
 
   	/***Mongo相关配置***/
-	public static String MONGONAME = "kcsAwtCzlKiObruXGKqb";
+	public static String MONGONAME = "DWuYiwnWvNhMHajZVHQT";
 	public static String MONGOHOST = "mongo.duapp.com";
 	public static String MONGOPORT = "8908";
 
