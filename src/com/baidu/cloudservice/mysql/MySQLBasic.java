@@ -1,14 +1,17 @@
 package com.baidu.cloudservice.mysql;
 
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.Statement;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.util.*;
-import java.net.URL;
-import java.sql.*;
-import java.io.PrintWriter;
+
 import com.baidu.cloudservice.conf.Config;
 /**
  * MySQL示例，通过该示例可熟悉BAE平台MySQL的使用（CRUD）
