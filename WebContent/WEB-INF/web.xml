@@ -119,6 +119,24 @@
     <servlet-name>mysqlquery</servlet-name>
   	<url-pattern>/mysqlquery/employeeinfo</url-pattern>
 </servlet-mapping>
+
+<servlet>
+    <servlet-name>mysqlquery1</servlet-name>
+    <servlet-class>com.baidu.cloudservice.mysql.MySQLQueryDooiooMobileCoreServiceKeyValues</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>mysqlquery1</servlet-name>
+  	<url-pattern>/mysqlquery1/DooiooMobileCoreServiceKeyValues</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>mysqlquery2</servlet-name>
+    <servlet-class>com.baidu.cloudservice.mysql.MySQLQueryRemoteVersionInfo</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>mysqlquery2</servlet-name>
+  	<url-pattern>/mysqlquery2/RemoteVersionInfo</url-pattern>
+</servlet-mapping>
       
 <!-- mongo-->      
  <servlet>
